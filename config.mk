@@ -13,3 +13,8 @@
 # limitations under the License.
 
 LOCAL_PATH := vendor/prebuilts
+
+ifeq ($(ANCIENT_NOGAPPS),true)
+PRODUCT_PACKAGES += \
+    SoundPickerPrebuiltVanilla
+endif
