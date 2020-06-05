@@ -21,4 +21,5 @@ endif
 
 # Prebuilts
 PRODUCT_PACKAGES += \
-    QPGallery
+    QPGallery \
+    WallpaperZone
