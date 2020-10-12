@@ -22,5 +22,4 @@ endif
 # Prebuilts
 PRODUCT_PACKAGES += \
     QPGallery \
-    WallpaperZone \
     AncientClockWidget
